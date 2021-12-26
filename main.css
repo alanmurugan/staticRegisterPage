@@ -1,7 +1,7 @@
 body {
-    background-color: #76c8ff;
+    background-color: #29485e;
     margin: 0;
-    font-family: sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     height: 100vh;
 }
@@ -22,7 +22,7 @@ header {
 
 header a {
     color: white;
-    background-color: #13a0ff;
+    background-color: #0562a0;
     border: solid 1px gray;
     border-radius: 3px;
     padding: .25rem .5rem;
@@ -32,7 +32,7 @@ header a {
 }
 
 header a:hover, form button:hover {
-    background-color: #1084d1;
+    background-color: #5c1b88;
     cursor: pointer;
 }
 
@@ -48,7 +48,9 @@ header a:hover, form button:hover {
 }
 
 .container > h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0 0 .5rem;
+    text-align: center;
 }
 
 form input, form button {
@@ -65,7 +67,7 @@ form input, form button {
 
 form button {
     color: white;
-    background-color: #13a0ff;
+    background-color: #6e0808;
 }
 
 footer {
